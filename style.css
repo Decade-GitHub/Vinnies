@@ -152,6 +152,33 @@ header {
 }
 
 .icon {
-    width: 1%;
+    width: 10%;
     height: auto;
+}
+
+.iconrow {
+    display: flex;
+    justify-content: center;
+}
+
+.iconrow .box {
+    max-width: 485px;
+    padding: 20px;
+    text-align: center;
+}
+
+.iconrow .box img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    left: 83px;
+}
+
+.iconrow .box h3 {
+    margin-left: auto;
+}
+
+.iconrow .box {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
